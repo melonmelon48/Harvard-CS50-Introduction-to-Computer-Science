@@ -1,0 +1,109 @@
+#home{
+    background-image: url('pguys.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.swipe {
+    height: 100vh;
+    background-image: url('pguys.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+body {
+  font-family: 'hero'
+}
+
+.hero-text {
+  color: #06402B;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #06402B;
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #C8E6C9;
+  border-radius: 15px;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #A5D6A7;
+  transform: scale(1.05);
+}
+
+
+
+
+
+.essay-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  font-family: 'hero', sans-serif;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #000000;
+}
+/* Background Gradient */
+.bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('PICKLE.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+/* Fade-in Animation */
+.fade-in {
+  opacity: 1;
+}
+
+.essay-container p {
+  margin-bottom: 20px;
+  text-indent: 30px;
+}
+
+
+main
+{
+    padding: 100px;
+    background-color: #FDFEFE;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+h2
+{
+    color: #06402B;
+}
