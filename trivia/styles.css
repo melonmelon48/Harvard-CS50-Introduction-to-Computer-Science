@@ -1,0 +1,48 @@
+body {
+    background-color: #fff;
+    color: #212529;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.header {
+    background-color: #0d6efd;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+input[type="text"] {
+    line-height: 1.8;
+    width: 25%;
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.feedback1, .feedback2, .feedback3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
